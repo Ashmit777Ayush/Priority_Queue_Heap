@@ -154,7 +154,7 @@ def main():
       heap.changePriority([int(x) for x in input('index key').split()])
     elif userInput == 6:
       print(*heap.heap, sep='\t')
-    elif userInput==7:
+    elif userInput==0:
       break
     else:
       print('chosse correctly!!!')
